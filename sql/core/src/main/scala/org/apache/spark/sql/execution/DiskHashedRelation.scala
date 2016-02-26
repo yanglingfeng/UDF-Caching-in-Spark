@@ -64,6 +64,14 @@ private[sql] class DiskPartition (
    */
   def insert(row: Row) = {
     // IMPLEMENT ME
+    if(inputClosed){
+      throw new SparkException("Partition closed!")
+    }
+    data.add(row)
+    if(measurePartitionSize()>blockSize){
+      spillPartitionToDisk()
+      data.clear()
+    }
   }
 
   /**
@@ -99,31 +107,49 @@ private[sql] class DiskPartition (
     if (!inputClosed) {
       throw new SparkException("Should not be reading from file before closing input. Bad things will happen!")
     }
-
     new Iterator[Row] {
       var currentIterator: Iterator[Row] = data.iterator.asScala
       val chunkSizeIterator: Iterator[Int] = chunkSizes.iterator().asScala
       var byteArray: Array[Byte] = null
-
       override def next() = {
         // IMPLEMENT ME
-        null
+        currentIterator.next()
+        //null
       }
-
       override def hasNext() = {
         // IMPLEMENT ME
-        false
-      }
+        var flag = currentIterator.hasNext
+        if(flag==false){
 
+          if(chunkSizeIterator.hasNext==true){
+
+            flag =true
+            fetchNextChunk()
+
+          }
+        }
+        flag
+        // false
+      }
       /**
-       * Fetches the next chunk of the file and updates the iterator. Should return true
-       * unless the iterator is empty.
-       *
-       * @return true unless the iterator is empty.
-       */
+        * Fetches the next chunk of the file and updates the iterator. Should return true
+        * unless the iterator is empty.
+        *
+        * @return true unless the iterator is empty.
+        */
       private[this] def fetchNextChunk(): Boolean = {
         // IMPLEMENT ME
-        false
+        if (chunkSizeIterator.hasNext==false) {
+          return false
+        }
+        val flag = chunkSizeIterator.next()
+        if (flag <= 0) {
+          return false
+        }
+        
+        byteArray = CS143Utils.getNextChunkBytes(inStream, flag,byteArray)
+        currentIterator = CS143Utils.getListFromBytes(byteArray).iterator.asScala
+        true
       }
     }
   }
@@ -137,6 +163,10 @@ private[sql] class DiskPartition (
    */
   def closeInput() = {
     // IMPLEMENT ME
+    if(data.isEmpty!=true){
+      spillPartitionToDisk()
+      data.clear()
+    }
     inputClosed = true
   }
 
