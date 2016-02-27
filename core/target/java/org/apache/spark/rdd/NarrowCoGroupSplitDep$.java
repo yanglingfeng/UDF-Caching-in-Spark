@@ -1,5 +1,6 @@
 package org.apache.spark.rdd;
 // no position
+// not preceding
 public  class NarrowCoGroupSplitDep$ extends scala.runtime.AbstractFunction3<org.apache.spark.rdd.RDD<?>, java.lang.Object, org.apache.spark.Partition, org.apache.spark.rdd.NarrowCoGroupSplitDep> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

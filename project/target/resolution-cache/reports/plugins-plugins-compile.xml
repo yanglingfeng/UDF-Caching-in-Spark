@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160225215527"/>
+		date="20160226204127"/>
 	<dependencies>
 		<module organisation="org.ow2.asm" name="asm-commons">
 			<revision name="5.0.3" status="release" pubdate="20140524013033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
@@ -435,7 +435,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-pom-reader">
-			<revision name="1.0-b23300238303ee934383b5d8ac85cd27be2a9f76" status="integration" pubdate="20160225215525" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="1.0-b23300238303ee934383b5d8ac85cd27be2a9f76" status="integration" pubdate="20160226204127" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="plugins" name="plugins" conf="compile" rev="1.0-b23300238303ee934383b5d8ac85cd27be2a9f76" rev-constraint-default="1.0-b23300238303ee934383b5d8ac85cd27be2a9f76" rev-constraint-dynamic="1.0-b23300238303ee934383b5d8ac85cd27be2a9f76" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
@@ -1012,7 +1012,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-style_2.10">
-			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20160225215525" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20160226204127" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="plugins" name="plugins" conf="compile" rev="0.1-SNAPSHOT" rev-constraint-default="0.1-SNAPSHOT" rev-constraint-dynamic="0.1-SNAPSHOT" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>

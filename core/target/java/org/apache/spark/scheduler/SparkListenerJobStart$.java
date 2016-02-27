@@ -1,5 +1,6 @@
 package org.apache.spark.scheduler;
 // no position
+// not preceding
 public  class SparkListenerJobStart$ extends scala.runtime.AbstractFunction3<java.lang.Object, scala.collection.Seq<org.apache.spark.scheduler.StageInfo>, java.util.Properties, org.apache.spark.scheduler.SparkListenerJobStart> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

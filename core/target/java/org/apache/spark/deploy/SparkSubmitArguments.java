@@ -49,6 +49,5 @@ public  class SparkSubmitArguments {
    * NOTE: Any changes here must be reflected in YarnClientSchedulerBackend.
    */
   private  void parseOpts (scala.collection.Seq<java.lang.String> opts) { throw new RuntimeException(); }
-  // not preceding
   private  void printUsageAndExit (int exitCode, Object unknownParam) { throw new RuntimeException(); }
 }

@@ -16,7 +16,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#yy-build-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#yy-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23d0671f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@770cfa90[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -1371,7 +1371,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.6!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1682ms :: artifacts dl 48ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1655ms :: artifacts dl 50ms[0m
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT compile produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT runtime produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT test produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-test.xml[0m
@@ -1385,5 +1385,5 @@
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT docs produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT pom produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#yy-build-build;0.1-SNAPSHOT scala-tool produced in /Users/Bobby/Desktop/yy/project/project/target/resolution-cache/reports/default-yy-build-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1682ms resolve - 48ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1655ms resolve - 50ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -53,6 +53,7 @@ public  class CoarseGrainedClusterMessages {
     public   RegisterExecutorFailed (java.lang.String message) { throw new RuntimeException(); }
   }
   // no position
+  // not preceding
   static public  class RegisterExecutorFailed$ extends scala.runtime.AbstractFunction1<java.lang.String, org.apache.spark.scheduler.cluster.CoarseGrainedClusterMessages.RegisterExecutorFailed> implements scala.Serializable {
     /**
      * Static reference to the singleton instance of this Scala object.
@@ -68,6 +69,7 @@ public  class CoarseGrainedClusterMessages {
     public   RegisterExecutor (java.lang.String executorId, java.lang.String hostPort, int cores) { throw new RuntimeException(); }
   }
   // no position
+  // not preceding
   static public  class RegisterExecutor$ extends scala.runtime.AbstractFunction3<java.lang.String, java.lang.String, java.lang.Object, org.apache.spark.scheduler.cluster.CoarseGrainedClusterMessages.RegisterExecutor> implements scala.Serializable {
     /**
      * Static reference to the singleton instance of this Scala object.
@@ -84,6 +86,7 @@ public  class CoarseGrainedClusterMessages {
     public   StatusUpdate (java.lang.String executorId, long taskId, scala.Enumeration.Value state, org.apache.spark.util.SerializableBuffer data) { throw new RuntimeException(); }
   }
   // no position
+  // not preceding
   static public  class StatusUpdate$ implements scala.Serializable {
     /**
      * Static reference to the singleton instance of this Scala object.

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a19006[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d7464cb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->runtime][0m
@@ -1506,7 +1506,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ff377ba[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49c9755f[0m
 [0m[[0mdebug[0m] [0mdon't use cache for org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT in inter-project[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
@@ -1538,7 +1538,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6541582[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30fad257[0m
 [0m[[0mdebug[0m] [0mdon't use cache for org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT in inter-project[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)][0m
@@ -9310,7 +9310,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.genjavadoc#genjavadoc-plugin_2.10.4;0.8!genjavadoc-plugin_2.10.4.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1530ms :: artifacts dl 38ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2106ms :: artifacts dl 66ms[0m
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT compile produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT runtime produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT test produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-test.xml[0m
@@ -9324,5 +9324,5 @@
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT docs produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT pom produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT scala-tool produced in /Users/Bobby/Desktop/yy/repl/target/resolution-cache/reports/org.apache.spark-spark-repl_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1530ms resolve - 38ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2106ms resolve - 66ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

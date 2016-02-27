@@ -1,6 +1,5 @@
 package org.apache.spark.scheduler.local;
 // no position
-// not preceding
 public  class ReviveOffers$ extends scala.runtime.AbstractFunction0<org.apache.spark.scheduler.local.ReviveOffers> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

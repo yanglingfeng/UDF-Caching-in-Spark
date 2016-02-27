@@ -1,3 +1,4 @@
 #Successful Tests
-#Thu Feb 25 23:05:48 PST 2016
-org.apache.spark.sql.execution.DiskPartitionSuite=1456470348646
+#Fri Feb 26 20:59:25 PST 2016
+org.apache.spark.sql.execution.DiskHashedRelationSuite=1456549165727
+org.apache.spark.sql.execution.DiskPartitionSuite=1456548768296
